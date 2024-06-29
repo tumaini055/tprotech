@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tPRO TECH|Boosting Service</title>
+    <link rel="stylesheet" href="stylesbooster.css">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body style="background-color: rgba(255, 255, 255, 0.842);">
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="logo">tPRO</span> TECH</h1>
+            </div>
+
+            <nav>
+                <ul>
+                    <li class="current"><a href="index.html">HOME</a></li>
+                    <li><a href="./about.html">ABOUT</a></li>
+                    <li><a href="./booster.html">SERVICES</a></li>
+                </ul>
+            </nav>
+          </div>
+    </header>
+    <main>
+        <form id="boost-form" netlify method="post" data-netlify="true">
+            <label for="account-id">Account ID:</label>
+            <input type="tell" id="account-id" name="account-id" value="Account" required>
+
+            <label for="payment-details">Payment Phone no:</label>
+            <input type="text" id="payment-details" name="payment-details" value="phone" required>
+
+            <label for="quantity">Quantity of Followers:</label>
+            <input type="number" id="quantity" name="quantity" value="quantity" required>
+            
+
+            <label for="social-media">Type of Social Media:</label>
+            <select id="social-media" name="social-media" required>
+                <option value="">Select an option</option>
+                <option value="instagram">Instagram</option>
+                <option value="facebook">Facebook</option>
+                <option value="twitter">Twitter</option>
+                <option value="tiktok">TikTok</option>
+            </select>
+
+            <button type="submit">Boost My Followers!</button>
+        </form>
+        <div id="response"></div>
+        <div id="response2"><button type="submit" class="bt2">Confirm</button></div>
+    </main>
+    <script src="script.js"></script>
+
+
+
+      <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="./bootstrap/js/bootstrap.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="../../assets/js/vendor/holder.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
+</body>
+</html>
